@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://soaservice.test.altainet.org/" xmlns:tns="http://soaservice.test.altainet.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="getDenominacionAsString" type="tns:getDenominacionAsString"/>
+
+  <xs:element name="getDenominacionAsStringResponse" type="tns:getDenominacionAsStringResponse"/>
+
+  <xs:element name="getEvento" type="tns:getEvento"/>
+
+  <xs:element name="getEventoResponse" type="tns:getEventoResponse"/>
+
+  <xs:complexType name="getDenominacionAsString">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getDenominacionAsStringResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getEvento">
+    <xs:sequence>
+      <xs:element name="wsRequest" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getEventoResponse">
+    <xs:sequence>
+      <xs:element name="wsResponse" type="tns:evento" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="evento">
+    <xs:sequence>
+      <xs:element name="denominacion" type="xs:string" minOccurs="0"/>
+      <xs:element name="id" type="xs:string" minOccurs="0"/>
+      <xs:element name="userAdministrador" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
