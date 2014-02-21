@@ -1,4 +1,76 @@
-template-projects-java-se-ee
+JAVA EE USEFULL TEMPLATES READY TO COPY PASTE 
 ============================
 
-Template fo java frameworks of the java SE and or EE
+Templates of java frameworks of the java EE.
+
+Levels :
+
+*EASY = Hello World!!
+*MEDIUM = Something a little more real
+*ADVANCED = Almost exact copy of a real project
+
+
+##Resources
+
+###Documentation
+
+* [Tutorial](http://books.zkoss.org/wiki/ZK_Getting_Started/Tutorial)
+* [ZK Essentials](http://books.zkoss.org/wiki/ZK_Essentials)
+* [ZK Developer's Reference](http://books.zkoss.org/wiki/ZK_Developer%27s_Reference)
+* [Javadoc API](http://www.zkoss.org/javadoc/latest/zk/)
+* [More](http://books.zkoss.org)
+
+###Download
+
+* [Download](http://www.zkoss.org/download/zk/ce)
+
+###License
+
+ * [LGPL](http://www.gnu.org/licenses/lgpl-2.1.html)
+
+##[Product Overview](http://www.zkoss.org/product/zk)
+
+###Simply Java
+
+> ZK is renowned for its "Ajax without JavaScript" approach since 2005,
+> enabling developers to build rich internet applications transparently
+> without any knowledge of Ajax and JavaScript.
+
+> The client engine and update engine in ZK play the roles of pitcher and
+> catcher, rendering Ajax communication transparent to developers. Events
+> triggered by users are encapsulated and marshalled to event listeners
+> running at the server.
+
+> User interface rendered on browsers are surrogated on the server as
+> POJO components, alternation made on the POJO components are reflected
+> to the client transparently.
+
+> With programs executed at the server, developers can leverage all the Java
+> technologies, such as Java EE and Spring, while back-end data and services
+> are readily available.
+
+
+###Server+client Fusion
+
+> ZK's Server+client Fusion gives developers the freedom to leverage the best
+> of both sides.
+
+> The server-centric solution to Ajax brings a productivity boost, robustness,
+> and security to Web application development; while client side solutions
+> endows Web applications with greater controllability and the ability to
+> leverage client side resources.
+
+> ZK marries the benefits of both to bring forth a developer-centric approach
+> where developers continue to build large scale enterprise applications with
+> all the robustness of Java technologies, but also are offered the flexibility
+> to work directly with ZK's jQuery based widgets to further enhance user
+> experience.
+
+###Declarative Programming
+
+> ZK User Interface Markup Language (ZUML) makes the design of rich user interfaces
+> as simple as authoring HTML pages. ZUML is a variant of XUL inheriting all
+> features available to XML, and separates the UI definition from the run-time logic.
+
+> ZUML also allows developers to automate CRUD between UI components and the data
+> source with annotations, data binding and MVVM.
