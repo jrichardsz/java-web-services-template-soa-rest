@@ -11,8 +11,8 @@ Levels :
 * [ADVANCED](#)
 
 
-##[WEB SERVICES](http://www.zkoss.org/product/zk)
+##[WEB SERVICES](https://github.com/jrichardsz/usefull-template-java-ee/tree/master/web-service-template)
 
 ###Documentation
 
-###Documentation
+###Resources
