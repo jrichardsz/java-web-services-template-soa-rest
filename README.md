@@ -18,6 +18,6 @@ Levels :
 ###Resources
 
 
-### by JRichardsz 
+###by JRichardsz 
 
-### jrichardsz.weebly.com
+###[jrichardsz.weebly.com](http://jrichardsz.weebly.com/)
