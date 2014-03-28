@@ -1,4 +1,4 @@
-package org.altainet.samples.webservices.rest.simplerestservice.ws;
+package org.jrichardsz.rest.jersey;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

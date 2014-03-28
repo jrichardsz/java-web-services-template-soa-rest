@@ -8,7 +8,7 @@ http://www.mastertheboss.com/resteasy/resteasy-tutorial-part-two-web-parameters
 Links by method:
 
 #################
-http://localhost:8080/rest-service/rest/eventoService/getDefault
+http://localhost:8080/rest-jersey-medium/rest/corporationService/getDefault
 
 Example:
 
@@ -34,7 +34,7 @@ userAdministrador: "RvuNwybY]<"
 
 
 #################
-http://localhost:8080/rest-service/rest/eventoService/getEventById/125
+http://localhost:8080/rest-jersey-medium/rest/corporationService/getEmployeeById/125
 
 Request headers 
 User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
@@ -58,7 +58,7 @@ userAdministrador: "[~hxH|udc4"
 }
 
 #################
-http://localhost:8080/rest-service/rest/eventoService/getEventByUri?uri=5
+http://localhost:8080/rest-jersey-medium/rest/corporationService/getEmployeeByUri?uri=5
 
 Request headers 
 User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22

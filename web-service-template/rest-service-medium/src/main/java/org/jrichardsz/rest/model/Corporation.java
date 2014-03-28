@@ -1,7 +1,7 @@
-package org.altainet.test.model;
+package org.jrichardsz.rest.model;
 
 
-public class Evento {
+public class Corporation {
 	
 	private String id;
 	private String denominacion;
