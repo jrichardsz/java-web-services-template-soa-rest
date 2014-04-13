@@ -1,23 +1,4 @@
-JAVA EE USEFULL TEMPLATES READY TO COPY PASTE 
+JAVA EE USEFULL WEB SERVICES TEMPLATES READY TO COPY PASTE 
 ============================
 
-Templates of java frameworks of the java EE.
-
-Levels :
-
-
-* [EASY](#)
-* [MEDIUM](#)
-* [ADVANCED](#)
-
-
-##[WEB SERVICES](https://github.com/jrichardsz/usefull-template-java-ee/tree/master/web-service-template)
-
-###Documentation
-
-###Resources
-
-
-###by JRichardsz 
-
-###[jrichardsz.weebly.com](http://jrichardsz.weebly.com/)
+Templates of java frameworks of the java EE: SOA, JAX WS, JAX RC, CXF, AXIS, JAXB, REST, JERSEY, SPRING REST FULL, ETC
