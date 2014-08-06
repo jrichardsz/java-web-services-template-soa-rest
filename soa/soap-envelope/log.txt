@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:end="http://endpoint.soaservice.kbvp.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <end:sayHello>
+         <arg0>lala</arg0>
+      </end:sayHello>
+   </soapenv:Body>
+</soapenv:Envelope>

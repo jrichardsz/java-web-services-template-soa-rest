@@ -6,12 +6,11 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
-
 import org.rnasystems.soaservice.structure.model.Evento;
 
-@XmlRootElement(name = "getEventoResponse", namespace = "http://soaservice.test.altainet.org/")
+@XmlRootElement(name = "getEventoResponse", namespace = "http://endpoint.soaservice.rnasystems.org/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getEventoResponse", namespace = "http://soaservice.test.altainet.org/")
+@XmlType(name = "getEventoResponse", namespace = "http://endpoint.soaservice.rnasystems.org/")
 public class GetEventoResponse {
 
     @XmlElement(name = "wsResponse", namespace = "")

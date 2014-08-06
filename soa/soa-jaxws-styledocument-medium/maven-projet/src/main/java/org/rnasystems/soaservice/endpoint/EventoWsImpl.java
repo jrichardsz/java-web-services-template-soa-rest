@@ -1,19 +1,19 @@
 package org.rnasystems.soaservice.endpoint;
 
-import javax.jws.WebService;
+import java.util.*;
 
-import org.rnasystems.soaservice.structure.model.Evento;
+import javax.jws.*;
 
-import uk.co.jemos.podam.api.PodamFactory;
-import uk.co.jemos.podam.api.PodamFactoryImpl;
+import org.rnasystems.soaservice.structure.model.*;
+
+import uk.co.jemos.podam.api.*;
 
 @WebService(endpointInterface = "org.rnasystems.soaservice.endpoint.EventoWs")
 public class EventoWsImpl implements EventoWs {
 
 	public String getDenominacionAsString(String id) {
-		PodamFactory factory = new PodamFactoryImpl();
-		String myPojo = factory.manufacturePojo(String.class);
-		return myPojo;
+		String simpleResponse = ""+ new Date().getTime();
+		return simpleResponse;
 	}
 
 	public Evento getEvento(String id) {

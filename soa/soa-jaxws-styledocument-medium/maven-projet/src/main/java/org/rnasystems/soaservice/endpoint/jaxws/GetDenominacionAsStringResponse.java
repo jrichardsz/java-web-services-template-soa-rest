@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "getDenominacionAsStringResponse", namespace = "http://soaservice.test.altainet.org/")
+@XmlRootElement(name = "getDenominacionAsStringResponse", namespace = "http://endpoint.soaservice.rnasystems.org/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getDenominacionAsStringResponse", namespace = "http://soaservice.test.altainet.org/")
+@XmlType(name = "getDenominacionAsStringResponse", namespace = "http://endpoint.soaservice.rnasystems.org/")
 public class GetDenominacionAsStringResponse {
 
     @XmlElement(name = "return", namespace = "")
